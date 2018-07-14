@@ -27,6 +27,9 @@ class Player(GameObject):
         self.overlap = False
         self.direct = 1
 
+
+
+
     def check_overlap(self):
         for game_object in game_objects:
             if type(game_object) == Wall:
@@ -120,6 +123,7 @@ class Player(GameObject):
         self.box_collider.x = self.x
         self.box_collider.y = self.y
         self.overlap = False
+
 
     # def check_collision(self):
     #

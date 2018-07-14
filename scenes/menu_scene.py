@@ -1,9 +1,11 @@
+import pygame
 import game_objects
 from menu.menu import Menu
 
 class MenuScene:
     def __init__(self):
-        pass
+        pygame.mixer.music.load('audio/xoso.wav')
+        pygame.mixer.music.play(0)
 
     def setup(self):
         menu = Menu(400, 300)

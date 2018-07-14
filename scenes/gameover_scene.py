@@ -1,9 +1,11 @@
+import pygame
 import game_objects
 from menu.gameover import GameOver
 
 class GameOverScene:
     def __init__(self):
-        pass
+        pygame.mixer.music.load('audio/game_over.flac')
+        pygame.mixer.music.play(0)
 
     def setup(self):
         game_over_scene = GameOver(400, 300)

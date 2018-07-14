@@ -57,6 +57,8 @@ while loop:
     for event in events:
         if event.type == pygame.QUIT:
             loop = False
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+            loop = False
         if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
             gameplay_scene = GameplayScene()
             global_scene_manager.change_scene(gameplay_scene)
@@ -70,7 +72,7 @@ while loop:
 
     game_objects.render(canvas)
 
-    pygame.display.set_caption('Micro game')
+    pygame.display.set_caption('Black man not hot')
 
     # 3. Flip
     pygame.display.flip()

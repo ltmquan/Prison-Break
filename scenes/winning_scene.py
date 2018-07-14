@@ -1,9 +1,11 @@
+import pygame
 import game_objects
 from menu.winning import Winning
 
 class WinningScene:
     def __init__(self):
-        pass
+        pygame.mixer.music.load('audio/victory.wav')
+        pygame.mixer.music.play(0)
 
     def setup(self):
         winning_scene = Winning(400, 300)

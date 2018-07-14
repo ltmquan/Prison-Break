@@ -1,3 +1,4 @@
+import pygame
 from player.player import Player
 from enemy.enemy import Enemy
 from black_slave.black_slave import BlackSlave
@@ -6,9 +7,11 @@ from black_screen import BlackScreen
 from maps.map_gen import *
 import game_objects
 
+
 class GameplayScene:
     def __init__(self):
-        pass
+        pygame.mixer.music.load('audio/kichtinh.wav')
+        pygame.mixer.music.play(-1)
     def setup(self):
 
         generate_map("image/map/map.json")
