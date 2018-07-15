@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f593c769-6b35-4ade-9f26-f87e9b5281a0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/storyline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/storyline_scene.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/black_slave/black_slave.py" beforeDir="false" afterPath="$PROJECT_DIR$/black_slave/black_slave.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enemy/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/enemy/enemy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player/player_animator.py" beforeDir="false" afterPath="$PROJECT_DIR$/player/player_animator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player/player_enemy_animator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/menu_scene.py" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/menu_scene.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/winning_scene.py" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/winning_scene.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,19 +25,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="player.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/player/player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="170">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -75,11 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="black_slave.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="black_slave.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/black_slave/black_slave.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+            <state relative-caret-position="53">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="box_collider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/physics/box_collider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="13" column="48" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="13" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -87,35 +79,38 @@
       <file leaf-file-name="player_animator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/player/player_animator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="enemy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enemy/enemy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game_objects.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game_objects.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="winning.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/menu/winning.py">
+      <file leaf-file-name="gameover_scene.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scenes/gameover_scene.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="68">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="winning_scene.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scenes/winning_scene.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameplay_scene.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scenes/gameplay_scene.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -137,7 +132,6 @@
       <list>
         <option value="$PROJECT_DIR$/frame_counter.py" />
         <option value="$PROJECT_DIR$/maze.py" />
-        <option value="$PROJECT_DIR$/physics/box_collider.py" />
         <option value="$PROJECT_DIR$/maze_test/maze_test.py" />
         <option value="$PROJECT_DIR$/victory/finish_line.py" />
         <option value="$PROJECT_DIR$/victory/victory.py" />
@@ -169,18 +163,19 @@
         <option value="$PROJECT_DIR$/input/input_manager.py" />
         <option value="$PROJECT_DIR$/victory/main_door.py" />
         <option value="$PROJECT_DIR$/scenes/gameover_scene.py" />
-        <option value="$PROJECT_DIR$/scenes/winning_scene.py" />
         <option value="$PROJECT_DIR$/scenes/gameplay_scene.py" />
         <option value="$PROJECT_DIR$/menu/winning.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/player/player_animator.py" />
-        <option value="$PROJECT_DIR$/black_slave/black_slave.py" />
         <option value="$PROJECT_DIR$/enemy/enemy.py" />
         <option value="$PROJECT_DIR$/player/player_enemy_animator.py" />
         <option value="$PROJECT_DIR$/tests/storyline.py" />
         <option value="$PROJECT_DIR$/player/player.py" />
         <option value="$PROJECT_DIR$/tests/storyline_scene.py" />
         <option value="$PROJECT_DIR$/scenes/menu_scene.py" />
+        <option value="$PROJECT_DIR$/black_slave/black_slave.py" />
+        <option value="$PROJECT_DIR$/physics/box_collider.py" />
+        <option value="$PROJECT_DIR$/scenes/winning_scene.py" />
       </list>
     </option>
   </component>
@@ -445,12 +440,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32943013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32943013" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298969" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -492,13 +487,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/physics/box_collider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/enemy/enemy_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -701,27 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scenes/gameover_scene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scenes/gameplay_scene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scenes/winning_scene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/menu/winning.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -744,27 +711,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/player/player_enemy_animator.py" />
-    <entry file="file://$PROJECT_DIR$/player/player_animator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,8 +747,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/black_slave/black_slave.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="53">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/physics/box_collider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player/player_animator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenes/gameover_scene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenes/winning_scene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenes/gameplay_scene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
