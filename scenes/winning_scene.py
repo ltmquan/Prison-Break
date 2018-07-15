@@ -5,7 +5,7 @@ from menu.winning import Winning
 
 class WinningScene:
     def __init__(self):
-        pygame.mixer.music.load('audio/victory.wav')
+        pygame.mixer.music.load('image/37206651_226948211286290_1494096384997982208_n.png')
         pygame.mixer.music.play(0)
 
     def setup(self):

@@ -59,7 +59,7 @@ while loop:
             loop = False
         if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             loop = False
-        if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
             gameplay_scene = GameplayScene()
             global_scene_manager.change_scene(gameplay_scene)
         else:

@@ -4,18 +4,15 @@ from input.input_manager import global_input_manager
 from scenes.scene_manager import global_scene_manager
 # from scenes.guide_scene import GuideScene
 from scenes.gameplay_scene import GameplayScene
-from scenes.tutorial_scene import TutorialScene
+from renderer.image_renderer import ImageRenderer
 
 
-class Menu(GameObject):
+class Tutorial(GameObject):
     def __init__(self, x, y):
         GameObject.__init__(self, x, y)
-        self.renderer = Animation(["image/menu/startt1.png",
-                                   "image/menu/startt2.png",
-                                   "image/menu/startt3.png"],
-                                  loop=True)
+        self.renderer = ImageRenderer("image/37059021_226940234620421_6512011225008701440_n.png")
 
     def update(self):
         if global_input_manager.enter_pressed:
-            gameplay_scene = TutorialScene()
+            gameplay_scene = GameplayScene()
             global_scene_manager.change_scene(gameplay_scene)
