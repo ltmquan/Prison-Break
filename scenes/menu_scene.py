@@ -2,6 +2,7 @@ import pygame
 import game_objects
 from menu.menu import Menu
 
+
 class MenuScene:
     def __init__(self):
         pygame.mixer.music.load('audio/xoso.wav')

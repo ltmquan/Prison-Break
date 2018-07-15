@@ -8,15 +8,14 @@ from game_objects import collide_with, add as add_game_object
 from player.player_animator import PlayerAnimator
 # from black_slave.prison_break import PrisonBreak
 from input.input_manager import global_input_manager
-from player.player_enemy_animator import PlayerEnemyAnimator
+
 
 
 class Player(GameObject):
     def __init__(self, x, y):
         GameObject.__init__(self, x, y)
         self.box_collider = BoxCollider(32, 32)
-        self.renderer_saved = PlayerEnemyAnimator()
-        self.renderer = PlayerAnimator()
+        self.renderer = PlayerAnimator(False)
         self.frame_counter = FrameCounter(120)
         self.counter = FrameCounter(120)
         self.black_screen = False
@@ -26,9 +25,6 @@ class Player(GameObject):
         self.step = 8
         self.overlap = False
         self.direct = 1
-
-
-
 
     def check_overlap(self):
         for game_object in game_objects:

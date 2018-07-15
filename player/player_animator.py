@@ -3,7 +3,8 @@ from renderer.image_renderer import ImageRenderer
 
 
 class PlayerAnimator:
-    def __init__(self):
+    def __init__(self, status):
+        if not status:
             self.right_animation = Animation(["image/nigga/nigga right/nigga10.png",
                                               "image/nigga/nigga right/nigga12.png",
                                               "image/nigga/nigga right/nigga14.png",
@@ -33,6 +34,36 @@ class PlayerAnimator:
             self.down_stand = ImageRenderer("image/nigga/nigga down/nigga10.png")
             self.up_stand = ImageRenderer("image/nigga/nigga up/nigga10.png")
             self.current_animation = self.right_stand
+        else:
+            self.right_animation = Animation(["image/nigga ++/nigga ++ right/nnigga10.png",
+                                              "image/nigga ++/nigga ++ right/nnigga12.png",
+                                              "image/nigga ++/nigga ++ right/nnigga14.png",
+                                              "image/nigga ++/nigga ++ right/nnigga16.png",
+                                              "image/nigga ++/nigga ++ right/nnigga18.png"],
+                                             loop=True)
+            self.left_animation = Animation(["image/nigga ++/nigga ++ lefy/nnigga10.png",
+                                             "image/nigga ++/nigga ++ lefy/nnigga12.png",
+                                             "image/nigga ++/nigga ++ lefy/nnigga14.png",
+                                             "image/nigga ++/nigga ++ lefy/nnigga16.png",
+                                             "image/nigga ++/nigga ++ lefy/nnigga18.png"],
+                                            loop=True)
+            self.up_animation = Animation(["image/nigga ++/nigga ++ up/nnigga10.png",
+                                           "image/nigga ++/nigga ++ up/nnigga12.png",
+                                           "image/nigga ++/nigga ++ up/nnigga14.png",
+                                           "image/nigga ++/nigga ++ up/nnigga16.png",
+                                           "image/nigga ++/nigga ++ up/nnigga18.png"],
+                                          loop=True)
+            self.down_animation = Animation(["image/nigga ++/nigga ++ down/nnigga10.png",
+                                             "image/nigga ++/nigga ++ down/nnigga12.png",
+                                             "image/nigga ++/nigga ++ down/nnigga14.png",
+                                             "image/nigga ++/nigga ++ down/nnigga16.png",
+                                             "image/nigga ++/nigga ++ down/nnigga18.png"],
+                                            loop=True)
+            self.right_stand = ImageRenderer("image/nigga ++/nigga ++ right/nnigga10.png", )
+            self.left_stand = ImageRenderer("image/nigga ++/nigga ++ lefy/nnigga10.png", )
+            self.down_stand = ImageRenderer("image/nigga ++/nigga ++ down/nnigga10.png", )
+            self.up_stand = ImageRenderer("image/nigga ++/nigga ++ up/nnigga10.png", )
+            self.current_animation = self.left_stand
 
     def render(self, canvas, x, y):
         self.current_animation.render(canvas, x, y)

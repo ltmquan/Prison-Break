@@ -1,4 +1,5 @@
 from game_objects import GameObject
+from player.player_animator import PlayerAnimator
 from renderer.animation import Animation
 from physics.box_collider import BoxCollider
 from game_objects import collide_with, add as add_game_object
@@ -13,7 +14,6 @@ class BlackSlave(GameObject):
         self.renderer = ImageRenderer("image/slave/prisoner.png")
         self.box_collider = BoxCollider(32, 32)
 
-
     def update(self):
         GameObject.update(self)
 
@@ -23,3 +23,4 @@ class BlackSlave(GameObject):
             # add_game_object(rescue)
             self.deactivate()
             game_object.win = True
+            game_object.renderer = PlayerAnimator(True)

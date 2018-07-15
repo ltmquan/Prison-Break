@@ -26,7 +26,7 @@ class Enemy(GameObject):
         self.dx = 0
         self.overlap = False
         self.directory = [1, 2, 3, 4]
-        self.step = 8
+        self.step = 4
 
     def update(self):
         GameObject.update(self)
